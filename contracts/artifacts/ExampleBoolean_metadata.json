@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyLearningEnv.sol": "ExampleBoolean"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyLearningEnv.sol": {
+			"keccak256": "0x1289fa55572da793c66baf381216a45ccb5159b0a59eb606643d865154d432b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae2015c5cdce635f14ce0cefb5e10bacf774915ef42f0706f7cd1ccae208397b",
+				"dweb:/ipfs/QmTW3QTMHuiQKy82k4ym51oZD5j4Dz2zcdb9wp1P4Yc4Yi"
+			]
+		}
+	},
+	"version": 1
+}

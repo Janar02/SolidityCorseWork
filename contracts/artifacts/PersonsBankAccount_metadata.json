@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GetBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WalletImplementation.sol": "PersonsBankAccount"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WalletImplementation.sol": {
+			"keccak256": "0xf357add434915ac9c3ec91e71214faab766690822fcb77269208d40477a3bdb1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dcf839b3c0613584b23f9506f23900ea10e80d00481b37b7c351e7fcffb37373",
+				"dweb:/ipfs/QmQA7R3gD5BvfEyp5AN4GH1usMqJDe6NRDGVhbr3E2DH7C"
+			]
+		}
+	},
+	"version": 1
+}

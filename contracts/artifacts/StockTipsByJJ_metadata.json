@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_initialTip",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_initialDesc",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "GetDetailedStockTip",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "GetFreeStockTip",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "GetPreviousFreeTips",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newStockTip",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_explanation",
+						"type": "string"
+					}
+				],
+				"name": "SetNewStockTip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newStockTip",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_explanation",
+						"type": "string"
+					}
+				],
+				"name": "SetNewStockTipAdv",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "WithdrawIncome",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StockTipsByJJ.sol": "StockTipsByJJ"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StockTipsByJJ.sol": {
+			"keccak256": "0x634a325e6ac15ee8a9002e1e605286a004446fd8b20264319acaee52af06e592",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80b8e244d6af11a475c1e6dd1424ebebfd262033ced92749f56effc9fd5477cf",
+				"dweb:/ipfs/QmQfmMtdk44TLvbZwxeYPFULeBHAcnBHoZJ16Rvkm8kLQc"
+			]
+		}
+	},
+	"version": 1
+}
